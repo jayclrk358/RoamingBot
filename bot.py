@@ -7,7 +7,7 @@ import requests
 import os
 import youtube_dl
 
-bot = commands.Bot(command_prefix='a.')
+bot = commands.Bot(command_prefix='!')
 from discord import opus
 OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll',
              'libopus-0.dll', 'libopus.so.0', 'libopus.0.dylib']
@@ -235,4 +235,4 @@ load_opus_lib()
 
 
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('NTc2MDE2Nzk2MzYxMTYyNzUz.XPAT6Q.2SaHTQ57ONV31UgiyGvGSzoMqSQ')))
